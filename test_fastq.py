@@ -24,7 +24,7 @@ def test_fastq(data):
         continue
     else:
         print ('error')
-        print ((count_1+1), (count_2+1)) # tell me which lines have the error
+        print ("sequence:", (count_1+1), "quality:", (count_2+1)) # tell me which lines have the error
     count_1 += 4
     count_2 += 4
 
